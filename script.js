@@ -43,7 +43,7 @@ function eventHandler(event){
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
-                Authorization: `Bearer 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`,
+                Authorization: `Bearer ${config.KEY}`,
             },
             body: JSON.stringify(data)
         });
