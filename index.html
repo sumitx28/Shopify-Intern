@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <title>Fun With AI</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8256f2f1f4.js" crossorigin="anonymous"></script>
+  </head>
+  
+
+  <body>
+
+    <div id="leftDiv">
+        <h1 id="heading">Fun With AI | Developed by Sumit</h1>
+        <select name="Engine" id="engineSelect" class="classic">
+          <option value="text-davinci-002">Davinci</option>
+          <option value="text-curie-001" selected>Curie</option>
+          <option value="text-babbage-001">Babbage</option>
+          <option value="text-ada-001">Ada</option>
+        </select>
+        <h1 id="heading">Responses</h1>
+        <ul id="list"></ul>
+    </div>
+
+    <div id="rightDiv">
+        <textarea id="textbox" placeholder="Type Prompt Here & Press Enter"></textarea>
+    </div>
+
+  </body>
+
+  <script src="script.js" ></script>
+</html>

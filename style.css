@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#leftDiv {
+    flex: 1;
+    height: 100%;
+    width: 50%;
+    background: white;
+    color: #313234;
+    overflow-y: scroll; 
+}
+
+#heading {
+    font-weight: bold;
+    padding: 10px;
+    padding-bottom: 3px;
+}
+
+#subHeading {
+    font-weight: lighter;
+    padding: 10px;
+    padding-top: 3px;
+}
+
+.container {
+    margin-top: 5px;
+    background-color: rgba(212, 212, 212, 0.292);
+    width: 700px;
+    padding: 7px;
+}
+
+.taskHeading {
+    flex: 1;
+}
+
+.res {
+    display: flex;
+    padding: 5px;
+}
+
+.heading {
+    width: 200px;
+    font-weight: bold;
+}
+
+.content {
+    width: 500px;
+}
+
+#rightDiv {
+    flex: 1;
+    height: 100%;
+    width: 50%;
+    background: #a3adba;
+}
+
+#textbox {
+    height: 100%;
+    width: 100%;
+    background: #afd7c9;
+    outline: none;
+    border: none;
+    font-size: 5em;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+select {
+
+    /* styling */
+    background-color: white;
+    border: thin solid blue;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+  
+    /* reset */
+    margin-left: 11px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select.classic {
+    background-image:
+      linear-gradient(45deg, transparent 50%, blue 50%),
+      linear-gradient(135deg, blue 50%, transparent 50%),
+      linear-gradient(to right, skyblue, skyblue);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+  }
+  
+  select.classic:focus {
+    background-image:
+      linear-gradient(45deg, white 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, white 50%),
+      linear-gradient(to right, gray, gray);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+    border-color: grey;
+    outline: 0;
+  }
+
